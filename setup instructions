@@ -1,0 +1,34 @@
+Clone the Repository Locally:
+git clone https://github.com/yourusername/chaintrust.git
+cd chaintrust
+//
+//
+//
+Create the Project Structure:
+mkdir client server contracts
+//
+//
+//
+Set Up the Client:
+Navigate to the client directory and create a React app.
+cd client
+npx create-react-app .
+npm install web3
+//
+//
+//
+Set Up the Server:
+Navigate to the server directory and initialize a Node.js project
+cd ../server
+npm init -y
+npm install express mongoose cors
+//
+//
+//
+Set Up Smart Contracts:
+navigate to the contracts directory and set up Truffle.
+cd ../contracts
+npm init -y
+npm install truffle
+npx truffle init
+
